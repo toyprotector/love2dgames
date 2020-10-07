@@ -1,0 +1,23 @@
+swords and battle is a remake, like tilebased but without being tilebased
+
+topdown "float coords" free contact
+attacks like swords and arrows are objects
+
+
+types: -creature, projectile, ...
+
+draw: circle, rectangle, ...
+
+
+---
+love.graphics.translate(x, y) -- move relative (0,0) to (x,y)
+love.graphics.rotate(angle) -- rotate coordinate system around relative (0,0) (absolute (x,y))
+love.graphics.rectangle("fill", -w/2, -h/2, w, h) -- draw rectangle centered around relative (0,0)
+---
+
+
+vai ter shields (objetos que ficam circulando em torno do player, bloqueando projéteis por chance)
+vai ter todo tipo de coisa legal
+
+projéteis normais que seguem em linha reta, p.ex retângulos
+projéteis que "seguem" o "calor"  (VER passarinhos da Illyasviel)
